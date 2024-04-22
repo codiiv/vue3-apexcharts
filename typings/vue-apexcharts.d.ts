@@ -53,4 +53,4 @@ export interface VueApexChartsComponent extends ComponentPublicInstance {
 
 declare const VueApexCharts: Component & ComponentOptions<VueApexChartsComponent> & Plugin;
 
-export default VueApexCharts;
+export = VueApexCharts;
